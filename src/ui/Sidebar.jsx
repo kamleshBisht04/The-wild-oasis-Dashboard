@@ -7,7 +7,7 @@ import Social from "./Social";
 function Sidebar() {
   return (
     <div className="flex h-screen">
-      <aside className="w-50 flex-none bg-white text-gray-800">
+      <aside className="w-50 flex-none bg-white ">
         <Logo />
         <Navigation />
         <SampleData />
