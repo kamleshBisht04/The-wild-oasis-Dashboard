@@ -6,14 +6,12 @@ import Social from "./Social";
 
 function Sidebar() {
   return (
-    <div className="flex h-screen">
-      <aside className="w-50 flex-none bg-white ">
-        <Logo />
-        <Navigation />
-        <SampleData />
-        <Social />
-      </aside>
-    </div>
+    <aside className="w-52 flex-none bg-white">
+      <Logo />
+      <Navigation />
+      <SampleData />
+      <Social />
+    </aside>
   );
 }
 

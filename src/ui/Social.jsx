@@ -4,7 +4,7 @@ import { HiMiniEnvelope } from "react-icons/hi2";
 
 function Social() {
   return (
-    <div className="mt-18 ml-2 flex items-center justify-center gap-4 rounded bg-gray-100 py-5">
+    <div className="mt-8  flex items-center justify-center gap-4 rounded bg-gray-100 py-6 ml-2 mr-3">
       
       <NavLink
         to="https://github.com"

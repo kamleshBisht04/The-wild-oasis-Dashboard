@@ -16,7 +16,7 @@ function Navigation() {
     { name: "Settings", href: "settings", icon: <HiCog6Tooth /> },
   ];
   return (
-    <nav className="mt-22 flex flex-col gap-2 px-2">
+    <nav className="mt-6 flex flex-col gap-2 px-5">
       {navigation.map((item) => (
         <NavLink
           key={item.name}

@@ -1,6 +1,6 @@
 function SampleData() {
   return (
-    <div className="mx-3 mt-10 rounded-xl bg-gray-200 px-2 py-3 text-center">
+    <div className="mx-3 mt-12 rounded-xl bg-gray-200 px-2 py-3 text-center">
       <h3 className="mb-2 font-semibold text-blue-900 uppercase">
         sample Data
       </h3>
