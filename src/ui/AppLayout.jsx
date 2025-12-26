@@ -6,11 +6,11 @@ function AppLayout() {
   return (
     <div className="grid h-screen grid-cols-[205px_1fr] grid-rows-[auto_1fr]">
       
-      <aside className="row-span-2 bg-gray-50">
+      <aside className="row-span-2 bg-white">
         <Sidebar />
       </aside>
 
-      <header className="bg-gray-50 px-6 py-3 shadow">
+      <header className="bg-white px-6 py-2 shadow">
         <Header />
       </header>
 
