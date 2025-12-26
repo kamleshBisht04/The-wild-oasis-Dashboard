@@ -15,7 +15,7 @@ function Header() {
       <div className="flex items-center gap-6">
         <div className="flex items-center gap-3">
           <img
-            src="https://i.pravatar.cc/40"
+            src="./src/assets/features/users/man.png"
             alt="User"
             className="h-7 w-auto rounded-full"
           />

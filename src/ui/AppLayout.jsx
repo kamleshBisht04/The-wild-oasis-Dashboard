@@ -5,17 +5,18 @@ import Header from "./Header";
 function AppLayout() {
   return (
     <div className="grid h-screen grid-cols-[205px_1fr] grid-rows-[auto_1fr]">
-      
       <aside className="row-span-2 bg-white">
         <Sidebar />
       </aside>
 
-      <header className="bg-white px-6 py-2 shadow">
+      <header className="bg-white px-6 py-1 shadow">
         <Header />
       </header>
 
-      <main className="bg-gray-100 px-10 py-3 overflow-y-auto">
-        <Outlet />
+      <main className="overflow-y-auto bg-gray-100">
+        <div className="mx-auto w-full max-w-5xl px-6 py-12">
+          <Outlet />
+        </div>
       </main>
     </div>
   );
